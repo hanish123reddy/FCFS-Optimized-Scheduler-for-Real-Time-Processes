@@ -1,0 +1,36 @@
+{
+  "cluster": {
+    "default_algorithm": "dp_fcfs_shield",
+    "num_nodes": 3,
+    "time_quantum": 4.0,
+    "reserve_light": 1,
+    "guard_wait": 40.0,
+    "calibrate": true,
+    "overrun_aware": true,
+    "beta_uncertainty": 1.0,
+    "heavy_threshold_sec": 15.0
+  },
+  "profile": {
+    "full_name": "Admin User",
+    "email": "admin@dp-fcfs.cloud",
+    "role": "Cloud Scheduler Architect",
+    "organization": "Distributed Systems Research Lab"
+  },
+  "appearance": {
+    "theme": "dark",
+    "gantt_animation": "smooth",
+    "refresh_interval_sec": 5,
+    "dense_mode": false
+  },
+  "notifications": {
+    "email_alerts": true,
+    "convoy_spike_warning": true,
+    "sla_violation_threshold_sec": 15.0,
+    "slack_webhook": ""
+  },
+  "security": {
+    "api_key_auth": false,
+    "session_timeout_min": 60,
+    "audit_logging": true
+  }
+}
